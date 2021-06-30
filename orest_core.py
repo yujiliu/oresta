@@ -19,12 +19,7 @@ class Orest_Main_Window(object):
         main_window.setAttribute(QtCore.Qt.WA_TranslucentBackground)
         main_window.setWindowFlags(QtCore.Qt.FramelessWindowHint)
         icon = QtGui.QIcon()
-
-        icon.addFile('imgs/icons/16x16.png', QtCore.QSize(16, 16))
-        icon.addFile('imgs/icons/24x24.png', QtCore.QSize(24, 24))
-        icon.addFile('imgs/icons/32x32.png', QtCore.QSize(32, 32))
-        icon.addFile('imgs/icons/48x48.png', QtCore.QSize(48, 48))
-        icon.addFile('imgs/icons/256x256.png', QtCore.QSize(256, 256))
+        icon.addPixmap(QtGui.QPixmap("app_ico.ico"))
         main_window.setWindowIcon(icon)
 
         self.central_widget = QtWidgets.QWidget(main_window)
