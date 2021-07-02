@@ -70,6 +70,7 @@ class Orest_Main_Window(object):
             if len(command) > 0:
                 with open('TEMP/log.txt', 'a') as app_log:
                     app_log.write(f'{datetime.now().strftime("%H:%M:%S")} - USER: {command}\n')
+                print(command)
                 return command
             else:
                 raise LookupError
