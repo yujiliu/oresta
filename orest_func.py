@@ -135,7 +135,8 @@ def weather_check(city_ukrainian=None):
     else:
         city = translate_to_english(city_ukrainian)
 
-    app_id = "7b60931fa6f6a616614a962761a07cfb"
+    with open('weather_token', 'r') as token:
+        app_id = token.read()
     city_id = 0
 
     try:
