@@ -6,7 +6,7 @@
 Alpha 0.0.1a
 ```
 
-## Що це?
+## UA Що це?
 
   Ореста - це віртуальний голосовий помічник, що розуміє та відповідає виключно на українській мові.
   
@@ -47,7 +47,7 @@ Alpha 0.0.1a
   
 ---
 
-## What it is?
+## ENG What it is?
 
    Oresta is a virtual voice assistant who understands and answers exclusively in Ukrainian.
    
